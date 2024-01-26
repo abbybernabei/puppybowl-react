@@ -1,0 +1,29 @@
+/* .navbar-container {
+  background-color: hotpink;
+  padding: 10px;
+  color: white;
+} */
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hotpink;
+  display: flex;
+}
+
+.nav-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 14px 16px;
+}
+
+.nav-link:hover {
+  text-decoration: solid;
+  background-color: rgb(249, 44, 146);
+}
