@@ -14,7 +14,7 @@ const NavBar = () => {
       </ul>
       <ul className="nav-links">
         <li>
-          <Link className="nav-link" to="/players/:id">
+          <Link className="nav-link" to="/players">
             All Players
           </Link>
         </li>
